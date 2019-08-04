@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "CCharacter.generated.h"
 
+class UCameraComponent;
+
 UCLASS()
 class PROJECTCONTROL_API ACCharacter : public ACharacter
 {
@@ -20,6 +22,10 @@ protected:
 	virtual void BeginPlay() override;
 
 	void MoveForward(float Value);
+	void MoveRight(float Value);
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UCameraComponent* CameraComp;
 
 public:	
 	// Called every frame
