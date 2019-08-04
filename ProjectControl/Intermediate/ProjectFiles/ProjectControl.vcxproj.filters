@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectControl.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5B6AA82D-4E87-42BF-BFF7-2B3767F2456E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectControl.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectControlEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\ProjectControl.VC.db" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{4DBEEE5D-388E-45CE-AEDC-E4F93E4CD3D1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectControl">
+      <UniqueIdentifier>{2EF9D91B-95F2-4BA3-81E9-1F42C7A4E29F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectControl\CCharacter.cpp">
+      <Filter>Source\ProjectControl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectControl\CCharacter.h">
+      <Filter>Source\ProjectControl</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ProjectControl\ProjectControl.Build.cs">
+      <Filter>Source\ProjectControl</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectControl\ProjectControl.cpp">
+      <Filter>Source\ProjectControl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectControl\ProjectControl.h">
+      <Filter>Source\ProjectControl</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectControl\ProjectControlGameModeBase.cpp">
+      <Filter>Source\ProjectControl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectControl\ProjectControlGameModeBase.h">
+      <Filter>Source\ProjectControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
