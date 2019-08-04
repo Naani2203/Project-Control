@@ -7,6 +7,7 @@
 #include "CCharacter.generated.h"
 
 class UCameraComponent;
+class USpringArmComponent;
 
 UCLASS()
 class PROJECTCONTROL_API ACCharacter : public ACharacter
@@ -23,9 +24,18 @@ protected:
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
+	void StartAim();
+	void StopAim();
+	void Dash();
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USpringArmComponent* SpringArmComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UCharacterMovementComponent* CharacterMovementComp;
 
 public:	
 	// Called every frame

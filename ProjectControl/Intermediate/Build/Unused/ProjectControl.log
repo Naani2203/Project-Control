@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Naani\Documents\GitHub\Project-Control).
+  Creating makefile for ProjectControlEditor (ini files are newer than makefile)
+  Parsing headers for ProjectControlEditor
+    Running UnrealHeaderTool "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\ProjectControl.uproject" "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\ProjectControlEditor\Development\ProjectControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ProjectControlEditor in 8.4447227 seconds
+  Deleted hot-reload file: C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Binaries\Win64\UE4Editor-ProjectControl-0006.dll
+  Deleted hot-reload file: C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-0006.lib
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 8 processes...
+    [1/3] UE4Editor-ProjectControl.lib
+       Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl.exp
+    [2/3] UE4Editor-ProjectControl.dll
+       Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl.suppressed.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl.suppressed.exp
+    [3/3] ProjectControlEditor.target
+  Total time in Parallel executor: 1.26 seconds
+  Total execution time: 12.15 seconds

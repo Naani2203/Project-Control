@@ -3,14 +3,25 @@
 
 #include "CCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Pawn.h"
+
 
 // Sets default values
 ACCharacter::ACCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	
+
+	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArmComp"));
+	SpringArmComp->bUsePawnControlRotation = true;
+	SpringArmComp->SetupAttachment(RootComponent);
+
+	
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComponent"));
-	CameraComp->bUsePawnControlRotation = true;
+	CameraComp->SetupAttachment(SpringArmComp);
 }
 
 // Called when the game starts or when spawned
@@ -22,12 +33,31 @@ void ACCharacter::BeginPlay()
 
 void ACCharacter::MoveForward(float Value)
 {
-	AddMovementInput(GetActorForwardVector()*Value);
+	AddMovementInput(CameraComp->GetForwardVector()*Value);
 }
 
 void ACCharacter::MoveRight(float Value)
 {
-	AddMovementInput(GetActorRightVector() * Value);
+	AddMovementInput(CameraComp->GetRightVector() * Value);
+}
+
+void ACCharacter::StartAim()
+{
+	GetCharacterMovement()->bOrientRotationToMovement = false;
+	bUseControllerRotationYaw = true;
+	
+}
+
+void ACCharacter::StopAim()
+{
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	bUseControllerRotationYaw = false;
+}
+
+void ACCharacter::Dash()
+{
+	GetCharacterMovement()->AddImpulse(GetActorForwardVector() * 2000, true);
+
 }
 
 
@@ -48,5 +78,10 @@ void ACCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAxis("LookUp", this, &ACCharacter::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn", this, &ACCharacter::AddControllerYawInput);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("StartAim", IE_Pressed, this, &ACCharacter::StartAim);
+	PlayerInputComponent->BindAction("StopAim", IE_Released, this, &ACCharacter::StopAim);
+	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &ACCharacter::Dash);
 }
 

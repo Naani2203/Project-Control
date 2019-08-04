@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECTCONTROL_CCharacter_generated_h
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_RPC_WRAPPERS
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_RPC_WRAPPERS
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACCharacter(); \
 	friend struct Z_Construct_UClass_ACCharacter_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ACCharacter)
 
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_INCLASS \
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesACCharacter(); \
 	friend struct Z_Construct_UClass_ACCharacter_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ACCharacter)
 
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACCharacter) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACCharacter(ACCharacter&&); \
@@ -57,29 +57,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACCharacter)
 
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ACCharacter, CameraComp); }
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ACCharacter, CameraComp); } \
+	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(ACCharacter, SpringArmComp); } \
+	FORCEINLINE static uint32 __PPO__CharacterMovementComp() { return STRUCT_OFFSET(ACCharacter, CharacterMovementComp); }
 
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_11_PROLOG
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_GENERATED_BODY_LEGACY \
+#define ProjectControl_Source_ProjectControl_CCharacter_h_12_PROLOG
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_RPC_WRAPPERS \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_INCLASS \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_STANDARD_CONSTRUCTORS \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_RPC_WRAPPERS \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_INCLASS \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProjectControl_Source_ProjectControl_CCharacter_h_14_GENERATED_BODY \
+#define ProjectControl_Source_ProjectControl_CCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	ProjectControl_Source_ProjectControl_CCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	ProjectControl_Source_ProjectControl_CCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

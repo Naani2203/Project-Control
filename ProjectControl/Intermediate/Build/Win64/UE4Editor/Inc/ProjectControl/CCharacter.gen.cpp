@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeCCharacter() {}
 	PROJECTCONTROL_API UClass* Z_Construct_UClass_ACCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ProjectControl();
+	ENGINE_API UClass* Z_Construct_UClass_UCharacterMovementComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void ACCharacter::StaticRegisterNativesACCharacter()
@@ -32,6 +34,14 @@ void EmptyLinkFunctionForGeneratedCodeCCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterMovementComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CharacterMovementComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArmComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArmComp;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraComp_MetaData[];
 #endif
@@ -52,6 +62,22 @@ void EmptyLinkFunctionForGeneratedCodeCCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACCharacter_Statics::NewProp_CharacterMovementComp_MetaData[] = {
+		{ "Category", "Components" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACCharacter_Statics::NewProp_CharacterMovementComp = { "CharacterMovementComp", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACCharacter, CharacterMovementComp), Z_Construct_UClass_UCharacterMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACCharacter_Statics::NewProp_CharacterMovementComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACCharacter_Statics::NewProp_CharacterMovementComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACCharacter_Statics::NewProp_SpringArmComp_MetaData[] = {
+		{ "Category", "Components" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACCharacter_Statics::NewProp_SpringArmComp = { "SpringArmComp", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACCharacter, SpringArmComp), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACCharacter_Statics::NewProp_SpringArmComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACCharacter_Statics::NewProp_SpringArmComp_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACCharacter_Statics::NewProp_CameraComp_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
@@ -60,6 +86,8 @@ void EmptyLinkFunctionForGeneratedCodeCCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACCharacter_Statics::NewProp_CameraComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACCharacter_Statics::NewProp_CameraComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACCharacter_Statics::NewProp_CharacterMovementComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACCharacter_Statics::NewProp_SpringArmComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACCharacter_Statics::NewProp_CameraComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACCharacter_Statics::StaticCppClassTypeInfo = {
@@ -89,7 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeCCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACCharacter, 412965235);
+	IMPLEMENT_CLASS(ACCharacter, 3662501157);
 	template<> PROJECTCONTROL_API UClass* StaticClass<ACCharacter>()
 	{
 		return ACCharacter::StaticClass();
