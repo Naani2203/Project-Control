@@ -56,7 +56,7 @@ void ACCharacter::StopAim()
 
 void ACCharacter::Dash()
 {
-	GetCharacterMovement()->AddImpulse(GetActorForwardVector() * 2000, true);
+	GetCharacterMovement()->AddImpulse(FVector(GetActorForwardVector().X*2000,GetActorForwardVector().Y*2000,GetActorForwardVector().Z+100) , true);
 
 }
 

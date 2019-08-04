@@ -723,3 +723,1032 @@ Script call stack:
 [2019.08.04-07.09.07:639][792]  ProjectControl
 [2019.08.04-07.09.07:639][792]Launching UnrealBuildTool... [D:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProjectControl,3878 Win64 Development -TargetType=Editor -Project="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject" "C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject"  -IgnoreJunk]
 [2019.08.04-07.09.07:793][792]Warning: Starting HotReload took  0.2s.
+[2019.08.04-07.09.22:831][690]CompilerResultsLog: New page: Compilation - 03-Aug-2019 5:09:22 pm
+[2019.08.04-07.09.22:831][690]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Naani\Documents\GitHub\Project-Control).
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Creating makefile for ProjectControlEditor (ini files are newer than makefile)
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Parsing headers for ProjectControlEditor
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\ProjectControl.uproject" "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\ProjectControlEditor\Development\ProjectControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Reflection code generated for ProjectControlEditor in 9.3390137 seconds
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:   [1/4] CCharacter.cpp
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:   [2/4] UE4Editor-ProjectControl-3878.lib
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-3878.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-3878.exp
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:   [3/4] UE4Editor-ProjectControl-3878.dll
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-3878.suppressed.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-3878.suppressed.exp
+[2019.08.04-07.09.22:832][690]CompilerResultsLog:   [4/4] ProjectControlEditor.target
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Total time in Parallel executor: 2.63 seconds
+[2019.08.04-07.09.22:832][690]CompilerResultsLog: Total execution time: 14.89 seconds
+[2019.08.04-07.09.22:832][690]LogMainFrame: MainFrame: Module compiling took 15.197 seconds
+[2019.08.04-07.09.22:858][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.08.04-07.09.22:891][690]LogContentBrowser: Native class hierarchy updated for 'ProjectControl' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2019.08.04-07.09.22:894][690]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.04-07.09.23:035][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.08.04-07.09.23:051][690]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2735 classes and 663 folders.
+[2019.08.04-07.09.23:051][690]Display: HotReload took 15.4s.
+[2019.08.04-07.09.25:005][807]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.09.25:025][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.09.25:025][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.09.25:025][807]PIE: New page: PIE session: Gym (03-Aug-2019 5:09:25 pm)
+[2019.08.04-07.09.25:025][807]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.09.25:029][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004406s)
+[2019.08.04-07.09.25:030][807]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.09.25:030][807]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2019.08.04-07.09.25:031][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.005552s)
+[2019.08.04-07.09.25:061][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.08.04-07.09.25:080][807]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.09.25:095][807]LogInit: FAudioDevice initialized.
+[2019.08.04-07.09.25:128][807]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.09.25:130][807]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.09.25:131][807]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.09.25
+[2019.08.04-07.09.25:131][807]LogWorld: Bringing up level for play took: 0.001934
+[2019.08.04-07.09.25:144][807]PIE: Play in editor start time for /Game/UEDPIE_0_Gym 1.054
+[2019.08.04-07.09.25:144][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.09.27:347][938]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.10.24:743][374]Cmd: LevelEditor.ToggleImmersive
+[2019.08.04-07.10.24:903][375]LogRenderer: Reallocating scene render targets to support 1736x956 Format 10 NumSamples 1 (Frame:3569).
+[2019.08.04-07.10.24:972][376]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:3571).
+[2019.08.04-07.10.24:987][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.04-07.14.41:048][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.14.41:048][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.14.41:110][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.14.41:110][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.14.41:143][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.14.41:147][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.08.04-07.14.41:175][719]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.08.04-07.14.43:062][830]Cmd: SELECT NONE
+[2019.08.04-07.14.44:627][900]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.04-07.14.47:331][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.15.45:202][338]Candidate modules for hot reload:
+[2019.08.04-07.15.45:202][338]  ProjectControl
+[2019.08.04-07.15.45:202][338]Launching UnrealBuildTool... [D:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProjectControl,7476 Win64 Development -TargetType=Editor -Project="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject" "C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject"  -IgnoreJunk]
+[2019.08.04-07.15.45:230][338]Warning: Starting HotReload took  0.0s.
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: New page: Compilation - 03-Aug-2019 5:16:00 pm
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Naani\Documents\GitHub\Project-Control).
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Creating makefile for ProjectControlEditor (ini files are newer than makefile)
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Parsing headers for ProjectControlEditor
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\ProjectControl.uproject" "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\ProjectControlEditor\Development\ProjectControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Reflection code generated for ProjectControlEditor in 9.0054639 seconds
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:   [1/4] CCharacter.cpp
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:   [2/4] UE4Editor-ProjectControl-7476.lib
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-7476.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-7476.exp
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:   [3/4] UE4Editor-ProjectControl-7476.dll
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-7476.suppressed.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-7476.suppressed.exp
+[2019.08.04-07.16.00:362][239]CompilerResultsLog:   [4/4] ProjectControlEditor.target
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Total time in Parallel executor: 2.77 seconds
+[2019.08.04-07.16.00:362][239]CompilerResultsLog: Total execution time: 14.68 seconds
+[2019.08.04-07.16.00:362][239]LogMainFrame: MainFrame: Module compiling took 15.164 seconds
+[2019.08.04-07.16.00:393][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.08.04-07.16.00:426][239]LogContentBrowser: Native class hierarchy updated for 'ProjectControl' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2019.08.04-07.16.00:428][239]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.04-07.16.00:515][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.08.04-07.16.00:532][239]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2735 classes and 663 folders.
+[2019.08.04-07.16.00:532][239]Display: HotReload took 15.3s.
+[2019.08.04-07.16.09:874][799]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.16.09:916][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.16.09:916][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.16.09:916][799]PIE: New page: PIE session: Gym (03-Aug-2019 5:16:09 pm)
+[2019.08.04-07.16.09:916][799]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.16.09:922][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006076s)
+[2019.08.04-07.16.09:923][799]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.16.09:923][799]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2019.08.04-07.16.09:924][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.007208s)
+[2019.08.04-07.16.09:955][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.08.04-07.16.09:978][799]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.16.09:994][799]LogInit: FAudioDevice initialized.
+[2019.08.04-07.16.10:027][799]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.16.10:029][799]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.16.10:029][799]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.16.10
+[2019.08.04-07.16.10:030][799]LogWorld: Bringing up level for play took: 0.001682
+[2019.08.04-07.16.10:043][799]PIE: Play in editor start time for /Game/UEDPIE_0_Gym -0.047
+[2019.08.04-07.16.10:043][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.16.12:212][927]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.16.32:653][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.16.32:653][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.16.32:683][152]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.16.32:683][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.16.32:717][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.16.32:720][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.08.04-07.16.32:783][154]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.08.04-07.16.34:909][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.17.19:744][512]Candidate modules for hot reload:
+[2019.08.04-07.17.19:744][512]  ProjectControl
+[2019.08.04-07.17.19:744][512]Launching UnrealBuildTool... [D:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProjectControl,9608 Win64 Development -TargetType=Editor -Project="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject" "C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject"  -IgnoreJunk]
+[2019.08.04-07.17.19:755][512]Warning: Starting HotReload took  0.0s.
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: New page: Compilation - 03-Aug-2019 5:17:34 pm
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Naani\Documents\GitHub\Project-Control).
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Creating makefile for ProjectControlEditor (ini files are newer than makefile)
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Parsing headers for ProjectControlEditor
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\ProjectControl.uproject" "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\ProjectControlEditor\Development\ProjectControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Reflection code generated for ProjectControlEditor in 8.7161656 seconds
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:   [1/4] CCharacter.cpp
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:   [2/4] UE4Editor-ProjectControl-9608.lib
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-9608.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-9608.exp
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:   [3/4] UE4Editor-ProjectControl-9608.dll
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-9608.suppressed.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-9608.suppressed.exp
+[2019.08.04-07.17.34:878][412]CompilerResultsLog:   [4/4] ProjectControlEditor.target
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Total time in Parallel executor: 3.41 seconds
+[2019.08.04-07.17.34:878][412]CompilerResultsLog: Total execution time: 14.99 seconds
+[2019.08.04-07.17.34:878][412]LogMainFrame: MainFrame: Module compiling took 15.138 seconds
+[2019.08.04-07.17.34:908][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.08.04-07.17.34:942][412]LogContentBrowser: Native class hierarchy updated for 'ProjectControl' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2019.08.04-07.17.34:946][412]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.04-07.17.35:031][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.08.04-07.17.35:045][412]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2735 classes and 663 folders.
+[2019.08.04-07.17.35:045][412]Display: HotReload took 15.3s.
+[2019.08.04-07.17.59:590][883]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.17.59:616][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.17.59:616][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.17.59:616][883]PIE: New page: PIE session: Gym (03-Aug-2019 5:17:59 pm)
+[2019.08.04-07.17.59:616][883]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.17.59:623][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006903s)
+[2019.08.04-07.17.59:624][883]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.17.59:624][883]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2019.08.04-07.17.59:624][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.008083s)
+[2019.08.04-07.17.59:653][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.08.04-07.17.59:671][883]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.17.59:688][883]LogInit: FAudioDevice initialized.
+[2019.08.04-07.17.59:721][883]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.17.59:723][883]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.17.59:723][883]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.17.59
+[2019.08.04-07.17.59:724][883]LogWorld: Bringing up level for play took: 0.001831
+[2019.08.04-07.17.59:737][883]PIE: Play in editor start time for /Game/UEDPIE_0_Gym -0.353
+[2019.08.04-07.17.59:737][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.18.01:935][ 13]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.18.26:211][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.18.26:211][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.18.26:244][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.18.26:244][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.18.26:280][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.18.26:283][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.08.04-07.18.26:329][470]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.08.04-07.18.28:929][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.20.08:829][995]Candidate modules for hot reload:
+[2019.08.04-07.20.08:830][995]  ProjectControl
+[2019.08.04-07.20.08:830][995]Launching UnrealBuildTool... [D:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProjectControl,661 Win64 Development -TargetType=Editor -Project="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject" "C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject"  -IgnoreJunk]
+[2019.08.04-07.20.08:862][995]Warning: Starting HotReload took  0.0s.
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: New page: Compilation - 03-Aug-2019 5:20:23 pm
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Naani\Documents\GitHub\Project-Control).
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: Creating makefile for ProjectControlEditor (ini files are newer than makefile)
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: Parsing headers for ProjectControlEditor
+[2019.08.04-07.20.23:442][866]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\ProjectControl.uproject" "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\ProjectControlEditor\Development\ProjectControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: Reflection code generated for ProjectControlEditor in 8.4991848 seconds
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.04-07.20.23:442][866]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.04-07.20.23:442][866]CompilerResultsLog:   [1/4] CCharacter.cpp
+[2019.08.04-07.20.23:442][866]CompilerResultsLog:   [2/4] UE4Editor-ProjectControl-0661.lib
+[2019.08.04-07.20.23:443][866]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-0661.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-0661.exp
+[2019.08.04-07.20.23:443][866]CompilerResultsLog:   [3/4] UE4Editor-ProjectControl-0661.dll
+[2019.08.04-07.20.23:443][866]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-0661.suppressed.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-0661.suppressed.exp
+[2019.08.04-07.20.23:443][866]CompilerResultsLog:   [4/4] ProjectControlEditor.target
+[2019.08.04-07.20.23:443][866]CompilerResultsLog: Total time in Parallel executor: 3.03 seconds
+[2019.08.04-07.20.23:443][866]CompilerResultsLog: Total execution time: 14.42 seconds
+[2019.08.04-07.20.23:443][866]LogMainFrame: MainFrame: Module compiling took 14.617 seconds
+[2019.08.04-07.20.23:472][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.08.04-07.20.23:494][866]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2735 classes and 663 folders.
+[2019.08.04-07.20.23:494][866]Display: HotReload took 14.7s.
+[2019.08.04-07.20.34:826][545]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.20.34:857][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.20.34:857][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.20.34:857][545]PIE: New page: PIE session: Gym (03-Aug-2019 5:20:34 pm)
+[2019.08.04-07.20.34:857][545]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.20.34:864][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006400s)
+[2019.08.04-07.20.34:864][545]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.20.34:865][545]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2019.08.04-07.20.34:865][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.007478s)
+[2019.08.04-07.20.34:895][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.08.04-07.20.34:918][545]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.20.34:934][545]LogInit: FAudioDevice initialized.
+[2019.08.04-07.20.34:962][545]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.20.34:963][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.20.34:964][545]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.20.34
+[2019.08.04-07.20.34:964][545]LogWorld: Bringing up level for play took: 0.001779
+[2019.08.04-07.20.34:978][545]PIE: Play in editor start time for /Game/UEDPIE_0_Gym 0.889
+[2019.08.04-07.20.34:978][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.20.37:173][675]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.20.44:058][ 87]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.20.44:059][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.20.44:089][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.20.44:089][ 87]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.20.44:121][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.20.44:124][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.08.04-07.20.44:181][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.08.04-07.20.58:930][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.22.26:071][353]Candidate modules for hot reload:
+[2019.08.04-07.22.26:071][353]  ProjectControl
+[2019.08.04-07.22.26:071][353]Launching UnrealBuildTool... [D:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProjectControl,1794 Win64 Development -TargetType=Editor -Project="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject" "C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/ProjectControl.uproject"  -IgnoreJunk]
+[2019.08.04-07.22.26:137][353]Warning: Starting HotReload took  0.1s.
+[2019.08.04-07.22.41:074][244]CompilerResultsLog: New page: Compilation - 03-Aug-2019 5:22:41 pm
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Naani\Documents\GitHub\Project-Control).
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Creating makefile for ProjectControlEditor (ini files are newer than makefile)
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Parsing headers for ProjectControlEditor
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\ProjectControl.uproject" "C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\ProjectControlEditor\Development\ProjectControlEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Reflection code generated for ProjectControlEditor in 8.7606284 seconds
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:   [1/4] CCharacter.cpp
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:   [2/4] UE4Editor-ProjectControl-1794.lib
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-1794.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-1794.exp
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:   [3/4] UE4Editor-ProjectControl-1794.dll
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:      Creating library C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-1794.suppressed.lib and object C:\Users\Naani\Documents\GitHub\Project-Control\ProjectControl\Intermediate\Build\Win64\UE4Editor\Development\ProjectControl\UE4Editor-ProjectControl-1794.suppressed.exp
+[2019.08.04-07.22.41:075][244]CompilerResultsLog:   [4/4] ProjectControlEditor.target
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Total time in Parallel executor: 3.08 seconds
+[2019.08.04-07.22.41:075][244]CompilerResultsLog: Total execution time: 14.81 seconds
+[2019.08.04-07.22.41:075][244]LogMainFrame: MainFrame: Module compiling took 15.008 seconds
+[2019.08.04-07.22.41:103][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.08.04-07.22.41:133][244]LogContentBrowser: Native class hierarchy updated for 'ProjectControl' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2019.08.04-07.22.41:135][244]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.08.04-07.22.41:225][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.08.04-07.22.41:245][244]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2735 classes and 663 folders.
+[2019.08.04-07.22.41:245][244]Display: HotReload took 15.2s.
+[2019.08.04-07.22.42:130][297]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.22.42:149][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.22.42:149][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.22.42:149][297]PIE: New page: PIE session: Gym (03-Aug-2019 5:22:42 pm)
+[2019.08.04-07.22.42:150][297]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.22.42:156][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006292s)
+[2019.08.04-07.22.42:156][297]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.22.42:157][297]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2019.08.04-07.22.42:157][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.007103s)
+[2019.08.04-07.22.42:184][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.08.04-07.22.42:206][297]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.22.42:225][297]LogInit: FAudioDevice initialized.
+[2019.08.04-07.22.42:258][297]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.22.42:260][297]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.22.42:261][297]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.22.42
+[2019.08.04-07.22.42:261][297]LogWorld: Bringing up level for play took: 0.002101
+[2019.08.04-07.22.42:274][297]PIE: Play in editor start time for /Game/UEDPIE_0_Gym 0.184
+[2019.08.04-07.22.42:274][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.22.44:469][427]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.23.05:279][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.23.05:279][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.23.05:314][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.23.05:314][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.23.05:347][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.23.05:350][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.08.04-07.23.05:411][676]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.08.04-07.23.07:137][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.23.07:221][784]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.23.07:237][784]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.23.07:238][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.23.07:238][784]PIE: New page: PIE session: Gym (03-Aug-2019 5:23:07 pm)
+[2019.08.04-07.23.07:238][784]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.23.07:244][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005791s)
+[2019.08.04-07.23.07:244][784]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.23.07:245][784]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2019.08.04-07.23.07:245][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.006892s)
+[2019.08.04-07.23.07:272][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.08.04-07.23.07:292][784]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.23.07:307][784]LogInit: FAudioDevice initialized.
+[2019.08.04-07.23.07:336][784]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.23.07:338][784]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.23.07:339][784]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.23.07
+[2019.08.04-07.23.07:339][784]LogWorld: Bringing up level for play took: 0.001762
+[2019.08.04-07.23.07:352][784]PIE: Play in editor start time for /Game/UEDPIE_0_Gym -0.738
+[2019.08.04-07.23.07:352][784]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.23.09:560][915]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.25.17:546][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.25.17:547][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.25.17:578][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.25.17:578][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.25.17:611][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.25.17:615][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.08.04-07.25.17:685][592]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.08.04-07.25.18:684][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.25.29:452][293]Cmd: SELECT NONE
+[2019.08.04-07.25.34:202][574]LogStaticMesh: Building static mesh SM_Plasma_Mesh_Reduced...
+[2019.08.04-07.25.34:382][574]LogStaticMesh: Built static mesh [0.18s] /Game/ParagonPhase/FX/Meshes/Smoke/SM_Plasma_Mesh_Reduced.SM_Plasma_Mesh_Reduced
+[2019.08.04-07.25.34:423][574]LogActorFactory: Actor Factory created SM_Plasma_Mesh_Reduced
+[2019.08.04-07.25.35:917][662]LogActorFactory: Actor Factory created SM_Plasma_Mesh_Reduced
+[2019.08.04-07.25.46:659][293]Cmd: SELECT NONE
+[2019.08.04-07.25.52:112][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.26.11:782][693]LogTexture: Display: Building textures: T_Soft_Noise (AutoDXT, 1024X1024)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_CloudSmoke_WispInk_Chromashift_Tile (AutoDXT, 1024X1024)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_Turbulence_Seamless (AutoDXT, 1024X1024)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_Flare_Spikeball (AutoDXT, 1024X1024)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_SmokeRend_N (BC5, 512X512)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_Wind_Blur (AutoDXT, 2048X2048)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_FireBall_LerpMask (AutoDXT, 1024X1024)
+[2019.08.04-07.26.11:784][693]LogTexture: Display: Building textures: T_Phase_Poster_Tendrils_v2_Seamless (G8, 4096X4096)
+[2019.08.04-07.26.11:784][693]LogMaterial: Display: Missing cached shader map for material M_ChromaPlasma, compiling. 
+[2019.08.04-07.26.11:966][693]LogMaterial: Display: Missing cached shader map for material M_TacticiaFlare, compiling. 
+[2019.08.04-07.26.11:990][693]LogMaterial: Display: Missing cached shader map for material M_TacticiaAirglow, compiling. 
+[2019.08.04-07.26.12:015][693]LogMaterial: Display: Missing cached shader map for material M_Particle_Decal_Glow_Undertow, compiling. 
+[2019.08.04-07.26.16:230][905]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.08.04-07.26.16:900][945]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.08.04-07.26.17:562][984]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.08.04-07.26.17:971][  7]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.08.04-07.26.18:947][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.26.21:008][186]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.08.04-07.26.21:179][192]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.08.04-07.26.21:369][203]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.04-07.26.22:090][244]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.04-07.26.24:286][371]LogMaterial: Display: Missing cached shader map for material M_ArrowFlare, compiling. 
+[2019.08.04-07.26.24:310][371]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.08.04-07.26.24:310][371]LogMaterial: Display: Missing cached shader map for material M_CleanseFlare, compiling. 
+[2019.08.04-07.26.24:338][371]LogMaterial: Display: Missing cached shader map for material M_CleanseFlare, compiling. 
+[2019.08.04-07.26.33:171][862]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Phase_IdleLoop)
+[2019.08.04-07.26.43:158][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_GradientLaserSoft_M (AutoDXT, 1024X32)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_Vert_Gradient_Softer (AutoDXT, 32X512)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_Beam_Gradient_02 (AutoDXT, 32X1024)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_soft_noise_even_distribution (RGBA16F, 256X256)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_softflare (AutoDXT, 1024X512)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_ShieldLightrays (AutoDXT, 1024X512)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_Water_M (AutoDXT, 2048X2048)
+[2019.08.04-07.26.43:643][451]LogTexture: Display: Building textures: T_Water_N (BC5, 2048X2048)
+[2019.08.04-07.26.43:643][451]LogStaticMesh: Building static mesh SM_WaterFall_RippleMeshes...
+[2019.08.04-07.26.43:790][451]LogStaticMesh: Built static mesh [0.15s] /Game/ParagonPhase/FX/Meshes/Water/SM_WaterFall_RippleMeshes.SM_WaterFall_RippleMeshes
+[2019.08.04-07.26.43:884][451]LogTexture: Display: Building textures: T_Drop_Hard_Normal (BC5, 512X512)
+[2019.08.04-07.26.43:941][451]LogTexture: Display: Building textures: T_Drop_Hard_Mask (AutoDXT, 512X512)
+[2019.08.04-07.26.44:106][451]LogTexture: Display: Building textures: T_AtmosphericCloudNoise04_N (BC5, 2048X2048)
+[2019.08.04-07.26.44:106][451]LogTexture: Display: Building textures: T_SM_WaterTests_BF_01E_D (AutoDXT, 4096X4096)
+[2019.08.04-07.26.44:106][451]LogTexture: Display: Building textures: T_Water_Screen_Noise_Soft2 (AutoDXT, 1024X1024)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_SM_WaterTests_BF_01E_N (BC5, 4096X4096)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_Liquid_Reflection (AutoDXT, 256X256)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_Hanging_cloth_normal_b (BC5, 256X256)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_StretchSpark_01 (AutoDXT, 128X512)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_TankMoteNoise (AutoDXT, 512X512)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_WaveDisplaced_N (BC5, 256X256)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_WaterTile_Blur_Packed (AutoDXT, 1024X1024)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_NoiseBubbly_Large (AutoDXT, 1024X1024)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_Glow_Sphere_Soft (AutoDXT, 512X512)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_LDR_Flare01 (AutoDXT, 512X512)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_Perlin_Soft_Packed (AutoDXT, 2048X2048)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: Water_Caustics01 (DXT1, 2048X2048)
+[2019.08.04-07.26.46:063][451]LogTexture: Display: Building textures: T_2ndInfectedMapNormal (BC5, 2048X2048)
+[2019.08.04-07.26.46:063][451]LogMaterial: Display: Missing cached shader map for material M_Water_Drops_Master, compiling. 
+[2019.08.04-07.26.46:136][451]LogStaticMesh: Building static mesh SM_Water_Footfall_Average...
+[2019.08.04-07.26.46:170][451]LogStaticMesh: Built static mesh [0.03s] /Game/ParagonPhase/FX/Meshes/Water/SM_Water_Footfall_Average.SM_Water_Footfall_Average
+[2019.08.04-07.26.49:698][451]LogMaterial: Display: Missing cached shader map for material M_Water_Footfall, compiling. 
+[2019.08.04-07.26.49:790][451]LogStaticMesh: Building static mesh SM_WaterImpact_Large_Cylinder_Reverse...
+[2019.08.04-07.26.49:833][451]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonPhase/FX/Meshes/Water/SM_WaterImpact_Large_Cylinder_Reverse.SM_WaterImpact_Large_Cylinder_Reverse
+[2019.08.04-07.26.49:856][451]LogStaticMesh: Building static mesh SM_WaterImpact_Large_Cylinder...
+[2019.08.04-07.26.49:875][451]LogStaticMesh: Built static mesh [0.02s] /Game/ParagonPhase/FX/Meshes/Water/SM_WaterImpact_Large_Cylinder.SM_WaterImpact_Large_Cylinder
+[2019.08.04-07.26.49:903][451]LogMaterial: Display: Missing cached shader map for material M_Pellets_InvisMoving, compiling. 
+[2019.08.04-07.26.49:959][451]LogMaterial: Display: Missing cached shader map for material M_Ice_Halo, compiling. 
+[2019.08.04-07.26.49:986][451]LogMaterial: Display: Missing cached shader map for material M_LensFlareAdd, compiling. 
+[2019.08.04-07.26.50:008][451]LogMaterial: Display: Missing cached shader map for material M_LensFlareAdd, compiling. 
+[2019.08.04-07.26.50:077][451]LogStaticMesh: Building static mesh SM_PhaseShockwave1...
+[2019.08.04-07.26.50:112][451]LogStaticMesh: Built static mesh [0.03s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_PhaseShockwave1.SM_PhaseShockwave1
+[2019.08.04-07.26.50:234][451]LogStaticMesh: Building static mesh SM_Phase_SlowDome...
+[2019.08.04-07.26.50:329][451]LogStaticMesh: Built static mesh [0.10s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_Phase_SlowDome.SM_Phase_SlowDome
+[2019.08.04-07.26.50:357][451]LogStaticMesh: Building static mesh SM_ManaBombFlame...
+[2019.08.04-07.26.50:368][451]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_ManaBombFlame.SM_ManaBombFlame
+[2019.08.04-07.26.50:377][451]LogMaterial: Display: Missing cached shader map for material M_PhaseLightBend, compiling. 
+[2019.08.04-07.26.50:403][451]LogMaterial: Display: Missing cached shader map for material M_ShockwaveBubbleChroma, compiling. 
+[2019.08.04-07.26.50:466][451]LogMaterial: Display: Missing cached shader map for material M_WaterRipple_Mesh_Foam, compiling. 
+[2019.08.04-07.26.50:859][451]LogMaterial: Display: Missing cached shader map for material M_WaterImpact_Cylinder, compiling. 
+[2019.08.04-07.26.51:303][451]LogMaterial: Display: Missing cached shader map for material M_BombFlames, compiling. 
+[2019.08.04-07.26.51:333][451]LogMaterial: Display: Missing cached shader map for material M_Hydro_Water_Particles, compiling. 
+[2019.08.04-07.26.51:494][451]LogMaterial: Display: Missing cached shader map for material M_Hydro_Water_Particles, compiling. 
+[2019.08.04-07.27.03:643][141]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_FlashImpact)
+[2019.08.04-07.27.18:543][ 18]Cmd: DELETE
+[2019.08.04-07.27.18:543][ 18]Cmd: ACTOR DELETE
+[2019.08.04-07.27.18:545][ 18]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.27.18:577][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.08.04-07.27.18:578][ 18]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.08.04-07.27.19:796][ 91]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Phase_IdleLoop)
+[2019.08.04-07.27.33:917][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.27.34:002][925]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.27.34:028][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.27.34:028][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.27.34:028][925]PIE: New page: PIE session: Gym (03-Aug-2019 5:27:34 pm)
+[2019.08.04-07.27.34:029][925]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.27.34:036][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007355s)
+[2019.08.04-07.27.34:037][925]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.27.34:037][925]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2019.08.04-07.27.34:037][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.008475s)
+[2019.08.04-07.27.34:069][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.08.04-07.27.34:092][925]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.27.34:110][925]LogInit: FAudioDevice initialized.
+[2019.08.04-07.27.34:139][925]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.27.34:141][925]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.27.34:142][925]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.27.34
+[2019.08.04-07.27.34:143][925]LogWorld: Bringing up level for play took: 0.003037
+[2019.08.04-07.27.34:156][925]PIE: Play in editor start time for /Game/UEDPIE_0_Gym 0.066
+[2019.08.04-07.27.34:156][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.27.36:355][ 48]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.27.44:527][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.27.44:527][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.27.44:560][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.27.44:560][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.27.44:598][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.27.44:602][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.08.04-07.27.44:634][534]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.08.04-07.27.50:821][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plasma_Mesh_Reduced)
+[2019.08.04-07.27.51:749][951]Cmd: DELETE
+[2019.08.04-07.27.51:749][951]Cmd: ACTOR DELETE
+[2019.08.04-07.27.51:751][951]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.08.04-07.27.51:781][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.08.04-07.27.51:781][951]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.08.04-07.27.54:117][ 89]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.08.04-07.27.54:117][ 89]Can't find target actor or component.
+[2019.08.04-07.27.55:988][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.28.00:026][414]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Phase_IdleLoop)
+[2019.08.04-07.28.02:776][570]Cmd: DELETE
+[2019.08.04-07.28.02:776][570]Cmd: ACTOR DELETE
+[2019.08.04-07.28.02:778][570]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.28.02:810][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.08.04-07.28.02:811][570]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.08.04-07.28.03:448][608]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_PhaseFlash)
+[2019.08.04-07.28.38:501][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.28.48:526][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.28.56:342][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.29.22:494][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.29.56:991][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.30.07:958][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.30.35:328][659]Cmd: DELETE
+[2019.08.04-07.30.35:328][659]Cmd: ACTOR DELETE
+[2019.08.04-07.30.35:329][659]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.30.35:358][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.08.04-07.30.35:358][659]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.08.04-07.30.45:279][207]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.08.04-07.30.45:279][207]LogTexture: Display: Building textures: T_Cloud_Wisp_Chromatic_Tile (AutoDXT, 1024X1024)
+[2019.08.04-07.30.45:279][207]LogMaterial: Display: Missing cached shader map for material M_SphereChromaWisps, compiling. 
+[2019.08.04-07.30.54:424][744]Cmd: DELETE
+[2019.08.04-07.30.54:424][744]Cmd: ACTOR DELETE
+[2019.08.04-07.30.54:426][744]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.30.54:456][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2019.08.04-07.30.54:456][744]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.08.04-07.30.57:027][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.31.06:708][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.31.06:825][478]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.31.06:851][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.31.06:851][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.31.06:851][478]PIE: New page: PIE session: Gym (03-Aug-2019 5:31:06 pm)
+[2019.08.04-07.31.06:851][478]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.31.06:858][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006254s)
+[2019.08.04-07.31.06:858][478]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.31.06:858][478]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2019.08.04-07.31.06:858][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.007214s)
+[2019.08.04-07.31.06:886][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.08.04-07.31.06:905][478]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.31.06:923][478]LogInit: FAudioDevice initialized.
+[2019.08.04-07.31.06:951][478]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.31.06:953][478]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.31.06:953][478]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.31.06
+[2019.08.04-07.31.06:954][478]LogWorld: Bringing up level for play took: 0.001777
+[2019.08.04-07.31.06:967][478]PIE: Play in editor start time for /Game/UEDPIE_0_Gym 0.877
+[2019.08.04-07.31.06:967][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.31.09:162][608]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.31.31:438][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.31.31:438][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.31.31:471][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.31.31:471][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.31.31:505][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.31.31:508][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.08.04-07.31.31:581][946]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.08.04-07.31.32:536][  3]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_PhaseBeam)
+[2019.08.04-07.31.33:836][ 78]Cmd: DELETE
+[2019.08.04-07.31.33:836][ 78]Cmd: ACTOR DELETE
+[2019.08.04-07.31.33:838][ 78]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.31.33:867][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.08.04-07.31.33:867][ 78]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.08.04-07.31.34:856][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.31.43:504][140]LogTexture: Display: Building textures: T_WispySmoke_V2_NRM (BC5, 4096X4096)
+[2019.08.04-07.31.43:504][140]LogTexture: Display: Building textures: T_WispySmoke_V2_OCC+Alpha (AutoDXT, 4096X4096)
+[2019.08.04-07.31.43:504][140]LogMaterial: Display: Missing cached shader map for material M_WispySmokeCheap, compiling. 
+[2019.08.04-07.32.13:911][942]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.04-07.32.13:972][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.08.04-07.32.13:973][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gym" FILE="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Autosaves/Game/Gym_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.08.04-07.32.14:162][942]LogSavePackage: Moving 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Gym_Auto15CA86ABA4F63ECD596A57C8035B8F116.tmp' to 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Autosaves/Game/Gym_Auto1.umap'
+[2019.08.04-07.32.14:171][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Gym' took 0.229
+[2019.08.04-07.32.14:171][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.229
+[2019.08.04-07.32.45:006][785]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_PhaseBeamGlow)
+[2019.08.04-07.32.48:631][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.32.52:615][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.32.56:942][496]Cmd: DELETE
+[2019.08.04-07.32.56:942][496]Cmd: ACTOR DELETE
+[2019.08.04-07.32.56:944][496]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.32.56:973][496]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.08.04-07.32.56:973][496]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.08.04-07.33.02:298][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.33.18:603][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.33.22:406][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.33.27:719][269]LogTexture: Display: Building textures: T_Trail_Mask (AutoDXT, 512X512)
+[2019.08.04-07.33.27:720][269]LogTexture: Display: Building textures: T_Spline_Gradient (AutoDXT, 2048X2048)
+[2019.08.04-07.33.27:720][269]LogTexture: Display: Building textures: T_Phase_Poster_Tendrils_v2_Seamless_BLUR (G8, 4096X4096)
+[2019.08.04-07.33.27:720][269]LogStaticMesh: Building static mesh SM_Phase_Primary_Streak...
+[2019.08.04-07.33.27:762][269]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_Phase_Primary_Streak.SM_Phase_Primary_Streak
+[2019.08.04-07.33.27:806][269]LogMaterial: Display: Missing cached shader map for material M_WingSwipeHoly, compiling. 
+[2019.08.04-07.33.32:606][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.33.44:103][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.33.51:751][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.33.55:403][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.34.00:559][213]LogStaticMesh: Building static mesh SM_Phase_Primary_Streak_R...
+[2019.08.04-07.34.00:603][213]LogStaticMesh: Built static mesh [0.05s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_Phase_Primary_Streak_R.SM_Phase_Primary_Streak_R
+[2019.08.04-07.34.03:295][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.34.07:309][605]Cmd: DELETE
+[2019.08.04-07.34.07:309][605]Cmd: ACTOR DELETE
+[2019.08.04-07.34.07:311][605]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.34.07:340][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.08.04-07.34.07:341][605]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.08.04-07.34.07:892][638]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_PhasePrimaryCastL)
+[2019.08.04-07.34.08:166][651]Cmd: DELETE
+[2019.08.04-07.34.08:166][651]Cmd: ACTOR DELETE
+[2019.08.04-07.34.08:167][651]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.34.08:194][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.08.04-07.34.08:195][651]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.08.04-07.34.08:662][679]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Phase_PrimaryHand)
+[2019.08.04-07.34.08:784][683]Cmd: DELETE
+[2019.08.04-07.34.08:784][683]Cmd: ACTOR DELETE
+[2019.08.04-07.34.08:786][683]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.34.08:816][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.08.04-07.34.08:816][683]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.08.04-07.34.10:811][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.34.19:906][309]LogTexture: Display: Building textures: T_MaglevFX_Line (AutoDXT, 32X1024)
+[2019.08.04-07.34.19:906][309]LogTexture: Display: Building textures: T_Soft_Energy_Trail (AutoDXT, 2048X256)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_RockSmooth0139_1_L (AutoDXT, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_RockSmooth0076_1_L (AutoDXT, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_RockSmooth0074_1_XL_N (BC5, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_LargePlainsBoulder002_D_M (DXT1, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_Cliffs0356_1_L_normal (BC5, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_Crunchy_1_D (AutoDXT, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_Pebbles_Stones_N (BC5, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogTexture: Display: Building textures: T_RockSmooth0076_1_L_N (BC5, 2048X2048)
+[2019.08.04-07.34.22:068][309]LogMaterial: Display: Missing cached shader map for material M_PhaseMeshSpirals, compiling. 
+[2019.08.04-07.34.33:350][309]LogTexture: Display: Building textures: T_RockSmooth0130_1_L (AutoDXT, 2048X2048)
+[2019.08.04-07.34.33:350][309]LogTexture: Display: Building textures: T_LargePlainsBoulder002_N (BC5, 8192X8192)
+[2019.08.04-07.34.33:350][309]LogTexture: Display: Building textures: T_Concrete_ChunkSubUV_N_TGA (BC5, 512X512)
+[2019.08.04-07.34.33:350][309]LogTexture: Display: Building textures: T_Concrete_ChunkSubUV_D (AutoDXT, 512X512)
+[2019.08.04-07.34.33:350][309]LogTexture: Display: Building textures: T_Smoke_Trail_Soft (AutoDXT, 2048X256)
+[2019.08.04-07.34.33:350][309]LogMaterial: Display: Missing cached shader map for material M_Explosion_RockChunks, compiling. 
+[2019.08.04-07.34.36:416][309]LogMaterial: Display: Missing cached shader map for material M_pebbles_stones, compiling. 
+[2019.08.04-07.34.36:681][309]LogStaticMesh: Building static mesh SM_Sphere...
+[2019.08.04-07.34.36:730][309]LogStaticMesh: Built static mesh [0.05s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_Sphere.SM_Sphere
+[2019.08.04-07.34.36:739][309]LogMaterial: Display: Missing cached shader map for material M_Ult_EyeTrails, compiling. 
+[2019.08.04-07.34.36:777][309]LogMaterial: Display: Missing cached shader map for material M_PhaseEyeGlow, compiling. 
+[2019.08.04-07.34.36:808][309]LogStaticMesh: Building static mesh SM_Phase_Spiral_Explosion...
+[2019.08.04-07.34.36:823][309]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_Phase_Spiral_Explosion.SM_Phase_Spiral_Explosion
+[2019.08.04-07.34.36:830][309]LogStaticMesh: Building static mesh pebbles_stones_d...
+[2019.08.04-07.34.36:838][309]LogStaticMesh: Built static mesh [0.01s] /Game/ParagonPhase/FX/Meshes/Debris/pebbles_stones_d.pebbles_stones_d
+[2019.08.04-07.34.36:875][309]LogStaticMesh: Building static mesh SM_PlasmaBall_2UVsets_HigherPoly...
+[2019.08.04-07.34.36:918][309]LogStaticMesh: Built static mesh [0.04s] /Game/ParagonPhase/FX/Meshes/Shapes/SM_PlasmaBall_2UVsets_HigherPoly.SM_PlasmaBall_2UVsets_HigherPoly
+[2019.08.04-07.34.36:933][309]LogMaterial: Display: Missing cached shader map for material M_PhaseLightBend2, compiling. 
+[2019.08.04-07.34.46:111][756]Cmd: EDCALLBACK SURFPROPS
+[2019.08.04-07.34.47:187][818]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_PhaseUlt)
+[2019.08.04-07.35.10:293][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.35.15:198][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.35.26:061][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.35.29:570][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.36.00:687][168]Cmd: DELETE
+[2019.08.04-07.36.00:687][168]Cmd: ACTOR DELETE
+[2019.08.04-07.36.00:689][168]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.36.00:719][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.08.04-07.36.00:719][168]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.08.04-07.39.22:050][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.04-07.39.22:074][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.39.22:074][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-07.39.22:074][ 26]PIE: New page: PIE session: Gym (03-Aug-2019 5:39:22 pm)
+[2019.08.04-07.39.22:075][ 26]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.04-07.39.22:080][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005499s)
+[2019.08.04-07.39.22:081][ 26]LogAIModule: Creating AISystem for world Gym
+[2019.08.04-07.39.22:081][ 26]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2019.08.04-07.39.22:081][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.006545s)
+[2019.08.04-07.39.22:112][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.08.04-07.39.22:134][ 26]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.04-07.39.22:152][ 26]LogInit: FAudioDevice initialized.
+[2019.08.04-07.39.22:183][ 26]LogLoad: Game class is 'GameModeBase'
+[2019.08.04-07.39.22:185][ 26]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.04-07.39.22:185][ 26]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 60) at 2019.08.04-00.39.22
+[2019.08.04-07.39.22:185][ 26]LogWorld: Bringing up level for play took: 0.001911
+[2019.08.04-07.39.22:198][ 26]PIE: Play in editor start time for /Game/UEDPIE_0_Gym 0.108
+[2019.08.04-07.39.22:198][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.39.24:393][156]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.04-07.39.44:773][378]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.39.44:773][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.39.44:808][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.04-07.39.44:808][378]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.04-07.39.44:845][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-07.39.44:850][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.08.04-07.39.44:875][379]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.08.04-07.39.46:184][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.39.58:928][211]LogTexture: Display: Building textures: T_SmokeRibbon_01 (AutoDXT, 128X64)
+[2019.08.04-07.39.58:928][211]LogTexture: Display: Building textures: T_FrameClamp (AutoDXT, 256X256)
+[2019.08.04-07.39.58:928][211]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.08.04-07.39.58:928][211]LogTexture: Display: Building textures: T_PlasmaMask_01 (AutoDXT, 1024X1024)
+[2019.08.04-07.39.58:929][211]LogMaterial: Display: Missing cached shader map for material M_SmokeRibbon_01, compiling. 
+[2019.08.04-07.40.08:468][211]LogTexture: Display: Building textures: T_NoiseMask_01 (AutoDXT, 1024X1024)
+[2019.08.04-07.40.08:468][211]LogTexture: Display: Building textures: T_Plasma_Detail_01 (AutoDXT, 1024X1024)
+[2019.08.04-07.40.08:468][211]LogTexture: Display: Building textures: T_Plasma_A_01 (AutoDXT, 4096X1024)
+[2019.08.04-07.40.08:468][211]LogTexture: Display: Building textures: T_Plasma_B_01 (AutoDXT, 8192X2048)
+[2019.08.04-07.40.08:468][211]LogMaterial: Display: Missing cached shader map for material M_Plasma_01, compiling. 
+[2019.08.04-07.40.08:780][211]LogStaticMesh: Building static mesh St_Tracer_B...
+[2019.08.04-07.40.08:817][211]LogStaticMesh: Built static mesh [0.04s] /Game/SciFiWeapDark/FX/Meshes/St_Tracer_B.St_Tracer_B
+[2019.08.04-07.40.08:826][211]LogMaterial: Display: Missing cached shader map for material M_Tracer_A, compiling. 
+[2019.08.04-07.40.58:703][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.40.58:859][180]LogTexture: Display: Building textures: T_Pistol_Streaks_01 (AutoDXT, 32X128)
+[2019.08.04-07.40.58:859][180]LogTexture: Display: Building textures: T_Sparks_02 (AutoDXT, 128X512)
+[2019.08.04-07.40.58:859][180]LogTexture: Display: Building textures: T_GlowSphere_01 (AutoDXT, 512X512)
+[2019.08.04-07.40.58:859][180]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.08.04-07.40.58:859][180]LogMaterial: Display: Missing cached shader map for material M_Pistol_Streaks_01, compiling. 
+[2019.08.04-07.40.58:916][180]LogTexture: Display: Building textures: T_Pistol_MuzzleFlashes_4x1_A (AutoDXT, 1024X512)
+[2019.08.04-07.40.58:916][180]LogMaterial: Display: Missing cached shader map for material M_Pop_01, compiling. 
+[2019.08.04-07.40.59:158][180]LogMaterial: Display: Missing cached shader map for material M_Pistol_MuzzleFlash_4x1_A, compiling. 
+[2019.08.04-07.41.04:392][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.41.10:640][841]Cmd: DELETE
+[2019.08.04-07.41.10:640][841]Cmd: ACTOR DELETE
+[2019.08.04-07.41.10:641][841]LogEditorActor: Deleted Actor: Emitter
+[2019.08.04-07.41.10:674][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.08.04-07.41.10:674][841]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.08.04-07.41.12:991][979]LogStaticMesh: Building static mesh St_Tracer_A...
+[2019.08.04-07.41.12:993][979]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.08.04-07.41.13:022][979]LogStaticMesh: Built static mesh [0.03s] /Game/SciFiWeapDark/FX/Meshes/St_Tracer_A.St_Tracer_A
+[2019.08.04-07.41.23:355][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-07.42.37:129][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.08.04-07.42.37:129][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gym" FILE="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Autosaves/Game/Gym_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.08.04-07.42.37:332][  4]LogSavePackage: Moving 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Gym_Auto28548FC5B4C53E611BB44949CAA3B1C9F.tmp' to 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Autosaves/Game/Gym_Auto2.umap'
+[2019.08.04-07.42.37:338][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Gym' took 0.241
+[2019.08.04-07.42.37:338][  4]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.241
+[2019.08.04-07.42.41:876][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gym" FILE="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Content/Gym.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.08.04-07.42.41:914][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.08.04-07.42.42:097][253]LogSavePackage: Moving 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Gym8993F3D14B13E38A65D28984551CD76E.tmp' to 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Content/Gym.umap'
+[2019.08.04-07.42.42:163][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gym_BuiltData" FILE="C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Content/Gym_BuiltData.uasset" SILENT=true
+[2019.08.04-07.42.42:194][253]LogSavePackage: Moving 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Saved/Gym_BuiltData1C8BB82043C0BE1E144505AA48DCAA52.tmp' to 'C:/Users/Naani/Documents/GitHub/Project-Control/ProjectControl/Content/Gym_BuiltData.uasset'
+[2019.08.04-07.42.44:644][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.08.04-07.42.44:810][393]LogSlate: Window 'ProjectControl - Unreal Editor' being destroyed
+[2019.08.04-07.42.45:202][394]Cmd: QUIT_EDITOR
+[2019.08.04-07.42.46:232][394]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.04-07.42.46:285][394]LogExit: Preparing to exit.
+[2019.08.04-07.42.47:984][394]LogExit: Editor shut down
+[2019.08.04-07.42.47:984][394]LogExit: Transaction tracking system shut down
+[2019.08.04-07.42.51:178][394]LogExit: Object subsystem successfully closed.
+[2019.08.04-07.42.51:347][394]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.08.04-07.42.51:366][394]LogD3D11RHI: Shutdown
+[2019.08.04-07.42.51:366][394]LogD3D11RHI: CleanupD3DDevice
+[2019.08.04-07.42.51:377][394]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.04-07.42.51:377][394]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.04-07.42.51:394][394]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.04-07.42.51:394][394]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.04-07.42.51:394][394]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.08.04-07.42.51:394][394]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.08.04-07.42.51:709][394]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.08.04-07.42.53:085][394]LogModuleManager: Shutting down and abandoning module MeshBuilder (654)
+[2019.08.04-07.42.53:085][394]LogModuleManager: Shutting down and abandoning module ProjectControl (652)
+[2019.08.04-07.42.53:085][394]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2019.08.04-07.42.53:085][394]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2019.08.04-07.42.53:095][394]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.08.04-07.42.53:095][394]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.08.04-07.42.53:095][394]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.08.04-07.42.53:112][394]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.08.04-07.42.53:112][394]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2019.08.04-07.42.53:112][394]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2019.08.04-07.42.53:124][394]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.08.04-07.42.53:139][394]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.08.04-07.42.53:153][394]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.08.04-07.42.53:189][394]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.08.04-07.42.53:203][394]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.08.04-07.42.53:203][394]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.08.04-07.42.53:203][394]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.08.04-07.42.53:203][394]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.08.04-07.42.53:203][394]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.08.04-07.42.53:203][394]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.08.04-07.42.53:221][394]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.08.04-07.42.53:221][394]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.08.04-07.42.53:235][394]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.08.04-07.42.53:235][394]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.08.04-07.42.53:245][394]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.08.04-07.42.53:263][394]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.08.04-07.42.53:291][394]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.08.04-07.42.53:292][394]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.08.04-07.42.53:324][394]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.08.04-07.42.53:336][394]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.08.04-07.42.53:336][394]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.08.04-07.42.53:336][394]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.08.04-07.42.53:336][394]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.08.04-07.42.53:336][394]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.08.04-07.42.53:337][394]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.08.04-07.42.53:353][394]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.08.04-07.42.53:366][394]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.08.04-07.42.53:367][394]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.08.04-07.42.53:367][394]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.08.04-07.42.53:367][394]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.08.04-07.42.53:389][394]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.08.04-07.42.53:401][394]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.08.04-07.42.53:417][394]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.08.04-07.42.53:436][394]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.08.04-07.42.53:457][394]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.08.04-07.42.53:457][394]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.08.04-07.42.53:457][394]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.08.04-07.42.53:457][394]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.08.04-07.42.53:457][394]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.08.04-07.42.54:802][394]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.08.04-07.42.54:802][394]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.08.04-07.42.54:802][394]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.08.04-07.42.54:802][394]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.08.04-07.42.54:802][394]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.08.04-07.42.54:802][394]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.08.04-07.42.54:822][394]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.08.04-07.42.54:838][394]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.08.04-07.42.54:857][394]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.08.04-07.42.54:870][394]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.08.04-07.42.54:870][394]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.08.04-07.42.54:884][394]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2019.08.04-07.42.54:895][394]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2019.08.04-07.42.54:909][394]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2019.08.04-07.42.54:922][394]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2019.08.04-07.42.54:922][394]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2019.08.04-07.42.54:923][394]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2019.08.04-07.42.54:923][394]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2019.08.04-07.42.54:936][394]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2019.08.04-07.42.54:958][394]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2019.08.04-07.42.54:968][394]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2019.08.04-07.42.54:976][394]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2019.08.04-07.42.54:986][394]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2019.08.04-07.42.55:031][394]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2019.08.04-07.42.55:058][394]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2019.08.04-07.42.55:075][394]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2019.08.04-07.42.55:128][394]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2019.08.04-07.42.55:128][394]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2019.08.04-07.42.55:138][394]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2019.08.04-07.42.55:138][394]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2019.08.04-07.42.55:168][394]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2019.08.04-07.42.55:196][394]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2019.08.04-07.42.55:196][394]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2019.08.04-07.42.55:196][394]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2019.08.04-07.42.55:217][394]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2019.08.04-07.42.55:253][394]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2019.08.04-07.42.55:253][394]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2019.08.04-07.42.55:253][394]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2019.08.04-07.42.55:268][394]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2019.08.04-07.42.55:278][394]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2019.08.04-07.42.55:288][394]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2019.08.04-07.42.55:288][394]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2019.08.04-07.42.55:301][394]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2019.08.04-07.42.55:301][394]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2019.08.04-07.42.55:329][394]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2019.08.04-07.42.55:329][394]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2019.08.04-07.42.55:330][394]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2019.08.04-07.42.55:339][394]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2019.08.04-07.42.55:352][394]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2019.08.04-07.42.55:352][394]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2019.08.04-07.42.55:352][394]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2019.08.04-07.42.55:353][394]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2019.08.04-07.42.55:353][394]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2019.08.04-07.42.55:353][394]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2019.08.04-07.42.55:363][394]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2019.08.04-07.42.55:363][394]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2019.08.04-07.42.55:374][394]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2019.08.04-07.42.55:374][394]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2019.08.04-07.42.55:379][394]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2019.08.04-07.42.55:588][394]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2019.08.04-07.42.55:609][394]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2019.08.04-07.42.55:609][394]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2019.08.04-07.42.55:620][394]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2019.08.04-07.42.55:628][394]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2019.08.04-07.42.55:637][394]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.08.04-07.42.55:637][394]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.08.04-07.42.55:637][394]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.08.04-07.42.55:652][394]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.08.04-07.42.55:652][394]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.08.04-07.42.55:661][394]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.08.04-07.42.55:661][394]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.08.04-07.42.55:661][394]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.08.04-07.42.55:661][394]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.08.04-07.42.55:670][394]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.08.04-07.42.55:680][394]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.08.04-07.42.55:680][394]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.08.04-07.42.55:680][394]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.08.04-07.42.55:680][394]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2019.08.04-07.42.55:680][394]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2019.08.04-07.42.55:693][394]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2019.08.04-07.42.55:706][394]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.08.04-07.42.55:706][394]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.08.04-07.42.55:706][394]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.08.04-07.42.55:706][394]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.08.04-07.42.55:721][394]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.08.04-07.42.55:736][394]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.08.04-07.42.55:736][394]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.08.04-07.42.55:758][394]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.08.04-07.42.55:770][394]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2019.08.04-07.42.55:773][394]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.08.04-07.42.55:773][394]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.08.04-07.42.55:773][394]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.08.04-07.42.55:773][394]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.08.04-07.42.55:773][394]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.08.04-07.42.55:773][394]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.08.04-07.42.55:789][394]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.08.04-07.42.55:805][394]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.08.04-07.42.55:821][394]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.08.04-07.42.55:830][394]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.08.04-07.42.55:851][394]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.08.04-07.42.55:952][394]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.08.04-07.42.56:066][394]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.08.04-07.42.56:067][394]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.08.04-07.42.56:067][394]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.08.04-07.42.56:077][394]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.08.04-07.42.56:078][394]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.08.04-07.42.56:093][394]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.08.04-07.42.56:093][394]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.08.04-07.42.56:093][394]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.08.04-07.42.56:093][394]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.08.04-07.42.56:106][394]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.08.04-07.42.56:106][394]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.08.04-07.42.56:106][394]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.08.04-07.42.56:106][394]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.08.04-07.42.56:122][394]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.08.04-07.42.56:122][394]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.08.04-07.42.56:135][394]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.08.04-07.42.56:135][394]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.08.04-07.42.56:135][394]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.08.04-07.42.56:136][394]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.08.04-07.42.56:137][394]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.08.04-07.42.56:171][394]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.08.04-07.42.56:171][394]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.08.04-07.42.56:171][394]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.08.04-07.42.56:171][394]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.08.04-07.42.56:179][394]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.08.04-07.42.56:192][394]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.08.04-07.42.56:200][394]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.08.04-07.42.56:201][394]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.08.04-07.42.56:201][394]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.08.04-07.42.56:214][394]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.08.04-07.42.56:214][394]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.08.04-07.42.56:214][394]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.08.04-07.42.56:214][394]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.08.04-07.42.56:232][394]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.08.04-07.42.56:250][394]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.08.04-07.42.56:250][394]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.08.04-07.42.56:281][394]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.08.04-07.42.56:291][394]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.08.04-07.42.56:304][394]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.08.04-07.42.56:314][394]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.08.04-07.42.56:327][394]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.08.04-07.42.56:342][394]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.08.04-07.42.56:383][394]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.08.04-07.42.56:384][394]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.08.04-07.42.56:414][394]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.08.04-07.42.56:414][394]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.08.04-07.42.56:416][394]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.08.04-07.42.56:428][394]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.08.04-07.42.56:428][394]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.08.04-07.42.56:429][394]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.08.04-07.42.56:436][394]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.08.04-07.42.56:436][394]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.08.04-07.42.56:450][394]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.08.04-07.42.56:478][394]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.08.04-07.42.56:478][394]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.08.04-07.42.56:488][394]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.08.04-07.42.56:552][394]LogDerivedDataCache: Shutdown
+[2019.08.04-07.42.56:552][394]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.08.04-07.42.56:552][394]LogXGEController: Cleaning working directory: C:/Users/Naani/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.04-07.42.56:562][394]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.08.04-07.42.56:575][394]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.08.04-07.42.56:585][394]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.08.04-07.42.56:594][394]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.08.04-07.42.56:602][394]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.08.04-07.42.56:632][394]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.08.04-07.42.56:666][394]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.08.04-07.42.56:666][394]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.08.04-07.42.56:666][394]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.08.04-07.42.56:666][394]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.08.04-07.42.56:698][394]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.08.04-07.42.56:698][394]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.08.04-07.42.56:698][394]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.08.04-07.42.56:698][394]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.08.04-07.42.56:721][394]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.08.04-07.42.56:721][394]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.08.04-07.42.56:728][394]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.08.04-07.42.56:754][394]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.08.04-07.42.56:754][394]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.08.04-07.42.56:769][394]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.08.04-07.42.56:784][394]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.08.04-07.42.56:787][394]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.08.04-07.42.56:788][394]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.08.04-07.42.56:788][394]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.08.04-07.42.56:789][394]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.08.04-07.42.56:789][394]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.08.04-07.42.56:796][394]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.08.04-07.42.56:813][394]LogHMD: Freeing OpenVRDLLHandle.
+[2019.08.04-07.42.56:813][394]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.08.04-07.42.56:828][394]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.08.04-07.42.56:828][394]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.08.04-07.42.56:828][394]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.08.04-07.42.56:828][394]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.08.04-07.42.56:830][394]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.08.04-07.42.56:848][394]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.08.04-07.42.56:913][394]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.08.04-07.42.56:914][394]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.08.04-07.42.56:914][394]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF341380B-412F-6628-CDB9-6F895EEEF46E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=8c117b2048dad33c8091089c544f27d0%7Cfaa382a3c32445a7b8aa797bca1659e0%7C8c0fae76-10fc-4244-8561-bcd1bae8dc0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.08.04-07.42.56:921][394]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.08.04-07.42.56:923][394]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.08.04-07.42.56:976][394]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.08.04-07.42.56:982][394]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.08.04-07.42.57:001][394]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.08.04-07.42.57:002][394]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.08.04-07.42.57:023][394]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.08.04-07.42.57:057][394]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.08.04-07.42.57:082][394]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.08.04-07.42.57:082][394]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.08.04-07.42.57:082][394]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.08.04-07.42.57:082][394]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.08.04-07.42.57:097][394]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.08.04-07.42.57:116][394]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.08.04-07.42.57:116][394]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.08.04-07.42.57:116][394]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.08.04-07.42.57:116][394]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.08.04-07.42.57:116][394]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.08.04-07.42.57:116][394]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.08.04-07.42.57:126][394]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.08.04-07.42.57:126][394]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.08.04-07.42.57:156][394]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.08.04-07.42.57:156][394]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.08.04-07.42.57:167][394]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.08.04-07.42.57:191][394]LogExit: Exiting.
+[2019.08.04-07.42.57:214][394]Log file closed, 08/04/19 00:42:57
