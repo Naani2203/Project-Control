@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProjectControl.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{593EB71F-F829-422F-A36B-83F9A36376E7}</UniqueIdentifier>
+      <UniqueIdentifier>{31ED064E-A60D-4340-938F-41A1062336B0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectControl.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\ProjectControl.VC.db" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FC3819B7-BA19-4A73-B8BE-F4D1A5116A1F}</UniqueIdentifier>
+      <UniqueIdentifier>{F3981103-3672-4939-8D3F-E37A6BEDE8B7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ProjectControl">
-      <UniqueIdentifier>{1C6E4CBD-7031-4B83-9214-C5E146374F80}</UniqueIdentifier>
+      <UniqueIdentifier>{F6843E4D-0D14-49D2-AD3F-1E33D3A73694}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectControl\CCharacter.cpp">
       <Filter>Source\ProjectControl</Filter>
@@ -47,6 +50,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectControl\ProjectControlGameModeBase.h">
       <Filter>Source\ProjectControl</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectControl\Private">
+      <UniqueIdentifier>{6B9E12C8-2B73-407C-97D8-3544B2DB38DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectControl\Private\CWeapon.cpp">
+      <Filter>Source\ProjectControl\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ProjectControl\Public">
+      <UniqueIdentifier>{4F1ED602-36D2-4643-8016-F48295CA21B7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ProjectControl\Public\CWeapon.h">
+      <Filter>Source\ProjectControl\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
