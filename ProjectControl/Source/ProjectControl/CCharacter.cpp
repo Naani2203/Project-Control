@@ -3,8 +3,11 @@
 
 #include "CCharacter.h"
 #include "Camera/CameraComponent.h"
+#include "DrawDebugHelpers.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystem.h"
 #include "GameFramework/Pawn.h"
 
 
@@ -14,7 +17,7 @@ ACCharacter::ACCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	
-
+	MeshComponent = GetMesh();
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArmComp"));
 	SpringArmComp->bUsePawnControlRotation = true;
 	SpringArmComp->SetupAttachment(RootComponent);
@@ -56,8 +59,41 @@ void ACCharacter::StopAim()
 
 void ACCharacter::Dash()
 {
-	GetCharacterMovement()->AddImpulse(GetActorForwardVector() * 2000, true);
+	GetCharacterMovement()->AddImpulse(FVector(GetActorForwardVector().X*2000,GetActorForwardVector().Y*2000,GetActorForwardVector().Z+100) , true);
+	if (DashEffect)
+	{
+		UGameplayStatics::SpawnEmitterAttached(DashEffect, MeshComponent, ForceFieldSocketName);
+	}
+}
 
+void ACCharacter::ForceField()
+{
+	TArray<FHitResult> OutHits;
+
+	FVector MyLocation = GetActorLocation();
+
+	FCollisionShape MyColSphere = FCollisionShape::MakeSphere(500.0f);
+
+	//DrawDebugSphere(GetWorld(), GetActorLocation(), MyColSphere.GetSphereRadius(), 50, FColor::Cyan, true);
+	bool isHit = GetWorld()->SweepMultiByChannel(OutHits, MyLocation, MyLocation, FQuat::Identity, ECC_WorldStatic, MyColSphere);
+
+	if (isHit)
+	{
+		for (auto& Hit : OutHits)
+		{
+			UStaticMeshComponent* MeshCom = Cast<UStaticMeshComponent>((Hit.GetActor())->GetRootComponent());
+			if (MeshCom)
+			{
+				MeshCom->AddRadialForce(Hit.Actor->GetActorLocation(), 10000.f, 200000.f, ERadialImpulseFalloff::RIF_Linear, true);
+				
+			}
+		}
+	}
+	
+	if (ForceFieldEffect)
+	{
+		UGameplayStatics::SpawnEmitterAttached(ForceFieldEffect, MeshComponent, ForceFieldSocketName);
+	}
 }
 
 
@@ -83,5 +119,16 @@ void ACCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("StartAim", IE_Pressed, this, &ACCharacter::StartAim);
 	PlayerInputComponent->BindAction("StopAim", IE_Released, this, &ACCharacter::StopAim);
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &ACCharacter::Dash);
+	PlayerInputComponent->BindAction("ForceField", IE_Pressed, this, &ACCharacter::ForceField);
+}
+
+FVector ACCharacter::GetPawnViewLocation() const
+{
+	if (CameraComp)
+	{
+		return CameraComp->GetComponentLocation();
+	}
+
+	return Super::GetPawnViewLocation();
 }
 

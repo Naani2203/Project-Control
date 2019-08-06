@@ -926,3 +926,249 @@ Script call stack:
 [2019.08.06-18.01.39:511][117]LogHttp: Warning: 0000028FD74AB4C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
 [2019.08.06-18.01.39:511][117]LogHttp: Warning: 0000028FD74AB4C0: libcurl info message cache 7 (Closing connection 21)
 [2019.08.06-18.01.39:851][118]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD971E8A9-4E1D-8230-9CB1-1DB48FCF5B10%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=37f978774a41fbabfd0ac985c738d85a%7Cd4afa63b91324bdba5a9e42120e7211b%7C1524f50d-021e-4312-9115-f62bb83935cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.08.06-19.27.19:939][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.06-19.27.20:031][745]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.06-19.27.20:054][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.27.20:054][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.06-19.27.20:054][745]PIE: New page: PIE session: Gym (Aug 6, 2019, 5:27:20 AM)
+[2019.08.06-19.27.20:055][745]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.06-19.27.20:074][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018842s)
+[2019.08.06-19.27.20:074][745]LogAIModule: Creating AISystem for world Gym
+[2019.08.06-19.27.20:075][745]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2019.08.06-19.27.20:075][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.020014s)
+[2019.08.06-19.27.20:104][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.08.06-19.27.20:114][745]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.06-19.27.20:136][745]LogInit: FAudioDevice initialized.
+[2019.08.06-19.27.20:166][745]LogLoad: Game class is 'GameModeBase'
+[2019.08.06-19.27.20:168][745]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.27.20:169][745]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 0) at 2019.08.06-12.27.20
+[2019.08.06-19.27.20:169][745]LogWorld: Bringing up level for play took: 0.002214
+[2019.08.06-19.27.20:182][745]PIE: Play in editor start time for /Game/UEDPIE_0_Gym -0.332
+[2019.08.06-19.27.20:182][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.27.22:366][998]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.06-19.27.31:608][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.27.31:608][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.27.31:639][ 99]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.06-19.27.31:639][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.27.31:668][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.27.31:672][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.08.06-19.27.31:708][103]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.08.06-19.28.14:118][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.06-19.28.14:184][997]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.06-19.28.14:201][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.28.14:201][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.06-19.28.14:201][997]PIE: New page: PIE session: Gym (Aug 6, 2019, 5:28:14 AM)
+[2019.08.06-19.28.14:201][997]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.06-19.28.14:207][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005688s)
+[2019.08.06-19.28.14:207][997]LogAIModule: Creating AISystem for world Gym
+[2019.08.06-19.28.14:208][997]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2019.08.06-19.28.14:208][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.006482s)
+[2019.08.06-19.28.14:233][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.08.06-19.28.14:241][997]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.06-19.28.14:260][997]LogInit: FAudioDevice initialized.
+[2019.08.06-19.28.14:294][997]LogLoad: Game class is 'GameModeBase'
+[2019.08.06-19.28.14:296][997]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.28.14:297][997]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 0) at 2019.08.06-12.28.14
+[2019.08.06-19.28.14:297][997]LogWorld: Bringing up level for play took: 0.002859
+[2019.08.06-19.28.14:312][997]PIE: Play in editor start time for /Game/UEDPIE_0_Gym -0.202
+[2019.08.06-19.28.14:312][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.28.16:531][257]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.06-19.28.31:274][ 24]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.28.31:274][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.28.31:307][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.06-19.28.31:307][ 24]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.28.31:338][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.28.31:340][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.08.06-19.28.31:376][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.08.06-19.31.09:801][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.06-19.31.09:851][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.06-19.31.09:874][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.31.09:874][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.06-19.31.09:874][ 12]PIE: New page: PIE session: Gym (Aug 6, 2019, 5:31:09 AM)
+[2019.08.06-19.31.09:874][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Gym
+[2019.08.06-19.31.09:881][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006254s)
+[2019.08.06-19.31.09:881][ 12]LogAIModule: Creating AISystem for world Gym
+[2019.08.06-19.31.09:881][ 12]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2019.08.06-19.31.09:882][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gym.Gym to /Game/UEDPIE_0_Gym.Gym (0.007193s)
+[2019.08.06-19.31.09:910][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.08.06-19.31.09:918][ 12]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.06-19.31.09:938][ 12]LogInit: FAudioDevice initialized.
+[2019.08.06-19.31.09:973][ 12]LogLoad: Game class is 'GameModeBase'
+[2019.08.06-19.31.09:975][ 12]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.31.09:976][ 12]LogWorld: Bringing World /Game/UEDPIE_0_Gym.Gym up for play (max tick rate 0) at 2019.08.06-12.31.09
+[2019.08.06-19.31.09:976][ 12]LogWorld: Bringing up level for play took: 0.002165
+[2019.08.06-19.31.09:990][ 12]PIE: Play in editor start time for /Game/UEDPIE_0_Gym -0.524
+[2019.08.06-19.31.09:990][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.31.12:199][272]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.06-19.31.17:380][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.31.17:380][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.31.17:413][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.06-19.31.17:414][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Gym.Gym:PersistentLevel' has LevelScriptBlueprint '/Game/Gym.Gym:PersistentLevel.Gym' with GeneratedClass '/Game/Gym.Gym_C' with ClassGeneratedBy '/Game/Gym.Gym:PersistentLevel.Gym'
+[2019.08.06-19.31.17:446][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.31.17:449][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.08.06-19.31.17:484][892]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.08.06-19.31.18:316][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.06-19.31.18:642][  8]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.08.06-19.31.18:642][  8]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2019.08.06-19.31.18:642][  8]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.08.06-19.31.18:642][  8]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2019.08.06-19.31.18:642][  8]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.08.06-19.31.18:642][  8]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2019.08.06-19.31.18:900][  8]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.08.06-19.31.18:900][  8]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.08.06-19.31.19:151][  8]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.08.06-19.31.19:202][  8]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.08.06-19.31.19:321][  8]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.08.06-19.31.19:351][  8]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.08.06-19.31.19:448][  8]LogAIModule: Creating AISystem for world Test
+[2019.08.06-19.31.19:451][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.31.19:460][  8]LogAssetEditorManager: Opening Asset editor for World /Game/BluePrints/Test.Test
+[2019.08.06-19.31.19:503][  8]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.08.06-19.31.19:505][  8]Cmd: MAP LOAD FILE="../../../../../../Users/gd52flavio/Desktop/Portifolio/Control/Project-Control/ProjectControl/Content/BluePrints/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.06-19.31.19:506][  8]LightingResults: New page: Lighting Build
+[2019.08.06-19.31.19:507][  8]LoadErrors: New page: Loading map: Test.umap
+[2019.08.06-19.31.19:508][  8]MapCheck: New page: Map Check
+[2019.08.06-19.31.19:508][  8]LightingResults: New page: Lighting Build
+[2019.08.06-19.31.19:558][  8]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.08.06-19.31.19:565][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.31.19:568][  8]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.06-19.31.19:606][  8]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2019.08.06-19.31.19:683][  8]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.06-19.31.19:685][  8]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.92ms to complete.
+[2019.08.06-19.31.19:685][  8]LogFileHelpers: Loading map 'Test' took 0.181
+[2019.08.06-19.31.21:129][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.06-19.31.21:196][137]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.06-19.31.21:232][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.31.21:232][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.06-19.31.21:233][137]PIE: New page: PIE session: Test (Aug 6, 2019, 5:31:21 AM)
+[2019.08.06-19.31.21:233][137]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_Test
+[2019.08.06-19.31.21:272][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038960s)
+[2019.08.06-19.31.21:273][137]LogAIModule: Creating AISystem for world Test
+[2019.08.06-19.31.21:273][137]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2019.08.06-19.31.21:274][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/Test.Test to /Game/BluePrints/UEDPIE_0_Test.Test (0.040887s)
+[2019.08.06-19.31.21:304][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.08.06-19.31.21:315][137]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.06-19.31.21:342][137]LogInit: FAudioDevice initialized.
+[2019.08.06-19.31.21:379][137]LogLoad: Game class is 'GameModeBase'
+[2019.08.06-19.31.21:384][137]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.31.21:385][137]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.08.06-12.31.21
+[2019.08.06-19.31.21:386][137]LogWorld: Bringing up level for play took: 0.006375
+[2019.08.06-19.31.21:400][137]PIE: Play in editor start time for /Game/BluePrints/UEDPIE_0_Test 0.887
+[2019.08.06-19.31.21:400][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.31.23:274][321]LogShaderCompilers: Display: Shaders left to compile 210
+[2019.08.06-19.31.23:538][349]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.06-19.31.24:319][431]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.08.06-19.31.24:446][444]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.08.06-19.31.27:267][745]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.08.06-19.31.27:415][760]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.08.06-19.31.27:549][775]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.08.06-19.31.28:196][840]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.08.06-19.31.30:538][ 61]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.08.06-19.31.31:506][165]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.08.06-19.31.35:083][518]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.08.06-19.31.35:138][524]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.08.06-19.31.36:030][615]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.08.06-19.31.36:378][652]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.08.06-19.31.38:525][874]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.08.06-19.31.38:953][920]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.08.06-19.31.40:930][127]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.08.06-19.31.41:613][195]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.08.06-19.31.44:192][457]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.06-19.31.44:428][482]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.06-19.31.45:690][607]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.06-19.31.47:831][826]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.06-19.36.10:408][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.36.10:408][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.36.10:436][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.06-19.36.10:437][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.36.10:468][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.36.10:471][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.08.06-19.36.10:507][615]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.08.06-19.37.10:958][791]Cmd: SELECT NONE
+[2019.08.06-19.38.18:091][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.06-19.38.18:691][897]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.06-19.38.18:710][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.38.18:710][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.06-19.38.18:711][897]PIE: New page: PIE session: Test (Aug 6, 2019, 5:38:18 AM)
+[2019.08.06-19.38.18:711][897]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_Test
+[2019.08.06-19.38.18:719][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008199s)
+[2019.08.06-19.38.18:719][897]LogAIModule: Creating AISystem for world Test
+[2019.08.06-19.38.18:720][897]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2019.08.06-19.38.18:720][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/Test.Test to /Game/BluePrints/UEDPIE_0_Test.Test (0.009239s)
+[2019.08.06-19.38.18:750][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.08.06-19.38.18:759][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.06-19.38.18:780][897]LogInit: FAudioDevice initialized.
+[2019.08.06-19.38.18:813][897]LogLoad: Game class is 'GameModeBase'
+[2019.08.06-19.38.18:817][897]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.38.18:817][897]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.08.06-12.38.18
+[2019.08.06-19.38.18:818][897]LogWorld: Bringing up level for play took: 0.003984
+[2019.08.06-19.38.18:831][897]PIE: Play in editor start time for /Game/BluePrints/UEDPIE_0_Test 0.319
+[2019.08.06-19.38.18:838][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.38.21:038][159]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.06-19.38.49:317][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.38.49:317][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.38.49:345][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.06-19.38.49:346][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.38.49:379][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.38.49:381][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.08.06-19.38.49:417][545]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.08.06-19.46.01:134][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.06-19.46.01:234][944]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.06-19.46.01:254][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.46.01:254][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.06-19.46.01:254][944]PIE: New page: PIE session: Test (Aug 6, 2019, 5:46:01 AM)
+[2019.08.06-19.46.01:255][944]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_Test
+[2019.08.06-19.46.01:263][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008118s)
+[2019.08.06-19.46.01:263][944]LogAIModule: Creating AISystem for world Test
+[2019.08.06-19.46.01:264][944]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2019.08.06-19.46.01:264][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/Test.Test to /Game/BluePrints/UEDPIE_0_Test.Test (0.009016s)
+[2019.08.06-19.46.01:295][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.08.06-19.46.01:303][944]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.06-19.46.01:325][944]LogInit: FAudioDevice initialized.
+[2019.08.06-19.46.01:358][944]LogLoad: Game class is 'GameModeBase'
+[2019.08.06-19.46.01:362][944]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonPhase/Characters/Heroes/Phase/Phase_AnimBlueprint.Phase_AnimBlueprint_C:ExecuteUbergraph_Phase_AnimBlueprint
+
+[2019.08.06-19.46.01:363][944]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2019.08.06-12.46.01
+[2019.08.06-19.46.01:363][944]LogWorld: Bringing up level for play took: 0.004840
+[2019.08.06-19.46.01:376][944]PIE: Play in editor start time for /Game/BluePrints/UEDPIE_0_Test 0.868
+[2019.08.06-19.46.01:376][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.46.03:260][166]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonPhase/Characters/Heroes/Phase/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.08.06-19.46.41:742][776]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.46.41:742][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.46.41:772][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.06-19.46.41:773][776]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/BluePrints/Test.Test:PersistentLevel' has LevelScriptBlueprint '/Game/BluePrints/Test.Test:PersistentLevel.Test' with GeneratedClass '/Game/BluePrints/Test.Test_C' with ClassGeneratedBy '/Game/BluePrints/Test.Test:PersistentLevel.Test'
+[2019.08.06-19.46.41:800][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.06-19.46.41:803][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.08.06-19.46.41:846][780]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.08.06-19.46.44:682][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
